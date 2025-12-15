@@ -1,0 +1,121 @@
+{
+  "name": "elevator-moore-machine",
+  "version": "2.0.0",
+  "description": "Elevator Control System using Moore Machine with 9 States, Real-time Analytics, and PDF Reporting",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=index.html",
+    "dev": "live-server --port=3000 --open=index.html --watch=index.html,style.css,script.js",
+    "build": "echo 'Building project...' && echo 'Project ready for deployment!'",
+    "test": "echo 'Open index.html in browser and test manually'",
+    "format": "prettier --write \"**/*.{html,css,js,json}\"",
+    "lint": "eslint script.js --fix",
+    "pdf-test": "node -e \"console.log('Testing PDF generation...'); console.log('Make sure jsPDF is loaded in browser');\"",
+    "deploy": "echo 'Deploy to GitHub Pages: git push origin main'"
+  },
+  "keywords": [
+    "moore-machine",
+    "elevator",
+    "automata",
+    "finite-state-machine",
+    "real-time-analytics",
+    "pdf-report",
+    "javascript",
+    "chartjs",
+    "jspdf"
+  ],
+  "author": "Huzaifa Ashrafi, Zaid Bhatti, Bilal Zaidi",
+  "contributors": [
+    "Huzaifa Ashrafi (23FA-035-SE)",
+    "Zaid Bhatti (23FA-014-SE)",
+    "Bilal Zaidi (23FA-060-SE)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuzaifaAshrafi1/elevator-moore-machine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HuzaifaAshrafi1/elevator-moore-machine/issues"
+  },
+  "homepage": "https://HuzaifaAshrafi1.github.io/elevator-moore-machine",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.28",
+    "font-awesome": "^6.4.0",
+    "animate.css": "^4.1.1",
+    "poppins-font": "^1.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^9.0.0",
+    "http-server": "^14.1.1"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "features": [
+    "9-State Moore Machine Implementation",
+    "Real-time Statistics & Analytics",
+    "Interactive Charts & Graphs",
+    "Emergency System with Protocols",
+    "Overload Detection & Handling",
+    "Power Failure Simulation",
+    "Occupant Management",
+    "Multiple Scenarios & Presets",
+    "Queue Management System",
+    "Comprehensive PDF Reporting",
+    "Dark/Light Mode Toggle",
+    "Keyboard Shortcuts",
+    "State Diagram Visualization",
+    "Complete State Table"
+  ],
+  "documentation": {
+    "states": [
+      "IDLE - Elevator stationary, waiting for requests",
+      "MOVING_UP - Moving upward to target floor",
+      "MOVING_DOWN - Moving downward to target floor",
+      "DOOR_OPENING - Doors opening at arrived floor",
+      "DOOR_OPEN - Doors open for passenger entry/exit",
+      "DOOR_CLOSING - Doors closing after dwell time",
+      "DOOR_CLOSED - Doors closed, preparing for next move",
+      "EMERGENCY - Emergency stop activated",
+      "OVERLOAD - Weight limit exceeded"
+    ],
+    "keyboardShortcuts": [
+      "0/G - Request Ground floor",
+      "1-4 - Request respective floor",
+      "U - Request Up (prompt)",
+      "D - Request Down (prompt)",
+      "↑ - Move to floor above",
+      "↓ - Move to floor below",
+      "O - Open door",
+      "C - Close door",
+      "Ctrl+E - Emergency stop",
+      "Ctrl+R - Reset system",
+      "Ctrl+P - Generate PDF report",
+      "Ctrl+A - Run auto test",
+      "Ctrl+Q - Clear queue",
+      "+ - Add occupant",
+      "- - Remove occupant"
+    ]
+  },
+  "projectInfo": {
+    "course": "Automata Theory",
+    "instructor": "Sir Jawwad Bhutta",
+    "institution": "Usman Institute of Technology",
+    "department": "Computer Science",
+    "semester": "Fall 2024",
+    "projectType": "Web-based Simulation"
+  }
+}
