@@ -191,7 +191,7 @@ elevator-moore-machine/
 - Door operation cycles
 - Emergency event count
 
-## 🛠️ Development
+## Development
 
 ### Setup Development Environment
 ```bash
@@ -222,7 +222,7 @@ npm run dev
 4. Style new components in `style.css`
 5. Test thoroughly with existing scenarios
 
-## 📊 Performance & Optimization
+## Performance & Optimization
 
 ### Optimizations Implemented
 - **Debounced state updates** to prevent excessive renders
@@ -254,7 +254,7 @@ This is an academic project, but suggestions are welcome:
 - Add comments for complex logic
 - Update documentation for new features
 
-## 📄 License
+##  License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
 
@@ -267,7 +267,7 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 - **Attribution Required**: Credit must be given to the authors
 - **NonCommercial**: Commercial use is not permitted
 
-For complete license terms, see the [LICENSE](LICENSE) file.
+For complete license terms, see the [LICENSE](License) file.
 
 
 ##  Academic Context
@@ -287,4 +287,12 @@ This project serves as a practical implementation of theoretical concepts learne
 - [Project Repository](https://github.com/HuzaifaAshrafi1/elevator-moore-machine)
 - [Issue Tracker](https://github.com/HuzaifaAshrafi1/elevator-moore-machine/issues)
 
+## Contact
+
+Feel free to reach out for collaboration or questions!
+
+**Email:** huzaifa123ashrafi@gmail.com
+**LinkedIn:** www.linkedin.com/in/huzaifa-ashrafi
+
+---
 
