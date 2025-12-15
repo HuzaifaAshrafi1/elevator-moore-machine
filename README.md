@@ -2,6 +2,7 @@
 
 ![Moore Machine 9 States](https://img.shields.io/badge/Moore%20Machine-9%20States-blue)
 ![Version](https://img.shields.io/badge/Version-1.0.0-success)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-blue)](https://huzaifaashrafi1.github.io/elevator-moore-machine/)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-green)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
@@ -285,3 +286,4 @@ This project serves as a practical implementation of theoretical concepts learne
 - [jsPDF Documentation](https://artskydj.github.io/jsPDF/docs/)
 - [Project Repository](https://github.com/HuzaifaAshrafi1/elevator-moore-machine)
 - [Issue Tracker](https://github.com/HuzaifaAshrafi1/elevator-moore-machine/issues)
+
