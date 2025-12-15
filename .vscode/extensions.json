@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "ritwickdey.liveserver",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "coenraads.bracket-pair-colorizer",
+        "ms-vscode.vscode-typescript-next",
+        "christian-kohler.path-intellisense",
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}
