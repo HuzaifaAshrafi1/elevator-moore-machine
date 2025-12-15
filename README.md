@@ -1,4 +1,4 @@
-# 🛗 Elevator Control System - Moore Machine Implementation
+# Elevator Control System - Moore Machine Implementation
 
 ![Moore Machine 9 States](https://img.shields.io/badge/Moore%20Machine-9%20States-blue)
 ![Version](https://img.shields.io/badge/Version-1.0.0-success)
@@ -286,4 +286,5 @@ This project serves as a practical implementation of theoretical concepts learne
 - [jsPDF Documentation](https://artskydj.github.io/jsPDF/docs/)
 - [Project Repository](https://github.com/HuzaifaAshrafi1/elevator-moore-machine)
 - [Issue Tracker](https://github.com/HuzaifaAshrafi1/elevator-moore-machine/issues)
+
 
